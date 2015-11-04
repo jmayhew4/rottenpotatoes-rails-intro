@@ -16,9 +16,6 @@ class MoviesController < ApplicationController
     if (params[:param_sort] == "title") 
      @highlight_t = 'hilite'
     end
-    if (params[:param_sort] == "rating") 
-     @highlight_r = 'hilite'
-    end
     if (params[:param_sort] == "release_date")
       @highlight_rd = 'hilite'
     end
